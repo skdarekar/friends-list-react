@@ -14,8 +14,9 @@
 }
 
 .App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+  background-color: #838383;
+  /* min-height: 100vh; */
+  height: 60px;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -26,6 +27,25 @@
 
 .App-link {
   color: #61dafb;
+}
+
+.friend {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 10px;
+  background: gainsboro;
+}
+
+.friend-content {
+  display: flex;
+  margin: 10px;
+  align-items: flex-start;
+  flex-direction: column;
+}
+
+.btn{
+  margin: 6px;
 }
 
 @keyframes App-logo-spin {
